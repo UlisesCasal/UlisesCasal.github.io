@@ -7,6 +7,8 @@
     margin: 0;
     padding: 0;
 }
+/*Timeline*/
+
 /* BARRA DE NAVEGACION: */
 
 .header{
@@ -78,3 +80,56 @@
     left: 10%;
     transform: translate(-50%, -50%);
 }
+
+.texto{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: absolute;
+    bottom: 10px;
+    top: 500px;
+}
+
+#foto-perfil{
+    height: 250px;
+    width: 250px;
+    float: left;
+    border-radius: 100%;
+}
+.texto p{
+    font-size: 16px;
+}
+.texto .timg{
+    margin-left: 300px;
+}
+
+.texto i{
+    font-size: 25px;
+}
+
+#habilidades{
+    padding-top: 100px;
+}
+
+#analisis-funcional{
+    height: 250px;
+    width: 250px;
+    float:right;
+    border-radius: 100%;
+
+}
+
+.listado{
+    margin-left: 20px;
+}
+
+.listado li{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.listado a{
+    font-weight: normal;
+}
+
