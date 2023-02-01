@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Quicksand:wght@600&family=Vollkorn:ital,wght@1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="comportamiento.js"></script>
 </head>
 <body>
     <header class = "header">
@@ -28,7 +29,6 @@
         <div class = "nombre">Ulises Casal</div>
     </div>
     -->
-    
     <div class="texto">
        <h1>Sobre mí</h1>
        <br/>
@@ -44,10 +44,6 @@
         </p>
         
        <br/>
-
-       <h2>Mis estudios y experiencia laboral</h2>
-       <br />
-       
        <h1 id="habilidades">Habilidades</h1>
        <img src="Multimedia\analisis-funcional.jpg" alt="" id="analisis-funcional">
        <a>Ahora pasaremos a hablar de mis habilidades:</a>
@@ -78,7 +74,47 @@
                 Github<i class="devicon-github-original"></i> y Power BI.</a>
             </li>
        </ul>
+       <br />
+       <h2>Mis estudios y experiencia laboral</h2>
+       <br />
+       <div class="contenedor">
+        <aside>
+          <div class="contenedor-temario" id="temario">
+            <h3 class="titulo">Línea de vida</h3>
+            <ul class="lista">
+              <li class="activo"><a href="#1">2020. Finalizo secundario</a></li>
+              <li><a href="#2">2020. Inicio trabajo</a></li>
+              <li><a href="#3">2021. Ingreso a la Universidad</a></li>
+              <li><a href="#4">2022. Finalizo trabajo</a></li>
+              <li><a href="#5">2023. Inicio cursos</a></li>
+            </ul>
+          </div>
+        </aside>
+        <main>
+          <div class="card" id="1">
+            <h1>2020 Finalizo secundario</h1>
+            <p>En Diciembre de 2020 finalizo el secundario Bachiller en Económia y Administración.</p>
+          </div>
+          <div class="card" id="2">
+            <h1>2020. Inicio trabajo</h1>
+            <p>En Diciembre inicio trabajo como entrenador y profesor de natación en el <a href="http://www.clublosindios.com.ar/">Club Recreativo los Indios de Moreno</a>. Mi trabajo como entrenador era realizar tanto como la planificacion (anual, semestral, mensual y semanal) para deportistas de alto rendimiento como dar el entrenamiento. Por otro lado, mi tarea como profesor era dar clases para personas de diferentes edades y niveles, aportandome una gran capacidad didáctica y buena comunicación. </p>
+          </div>
+          <div class="card" id="3">
+            <h1>2021. Ingreso a la Universidad</h1>
+            <p>En Marzo y Abril ingreso a la Licenciatura en Sistemas de Informacion en la UnLu y al curso de Entrenador de Natación en la UAI.</p>
+          </div>
+          <div class="card" id="4">
+            <h1>2022. Finalizo trabajo</h1>
+            <p>En Noviembre finalizo mi trabajo como profesor y entrenador de natación, con destacados logros a nivel nacional.</p>
+          </div>
+          <div class="card" id="5">
+            <h1>2023. Inicio curso</h1>
+            <p>En Febrero inicie un curso Testing QA Manual y Automatizado en <a href="https://www.institutoweb.com.ar/">Instituto Web</a>.</p>
+          </div>
+        </main>
+      </div>
+      <script src="comportamiento.js"></script> 
     </div>
-
+    
 </body>
 </html>
