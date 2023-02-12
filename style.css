@@ -16,6 +16,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-margin-top: 70px;
 }
 
 body{
@@ -27,6 +28,9 @@ body{
 
 .header {
     font-family: 'Nunito', sans-serif;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
     background-color: #53354A;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -79,6 +83,8 @@ body{
     transform: scale(1.1);
 }
 
+
+
 .imagen-principal img{
     position: absolute;
     height: 700px;
@@ -100,6 +106,7 @@ body{
     
 }
 .texto{
+    display: auto;
     font-family: 'Nunito', sans-serif;
     font-style: bold;
     margin-left: 30px;
@@ -353,8 +360,15 @@ main {
 
 
 @media (max-width: 450px) {
+
     .form{
         padding: 3.5em 1em;
     }
+}
 
+@media (max-width: 900px){
+    .tarjeta{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
