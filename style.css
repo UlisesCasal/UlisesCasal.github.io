@@ -86,10 +86,14 @@ body{
 .fondo{
     display: flex;
 }
-
+.img-movil{
+    display: none;
+}
 .img-fondo{
     display: flex;
     width: 100%;
+    min-width: 700px;
+    min-height: 300px;
     position: auto;
     height: 700px;
     border-bottom-left-radius:10px;
@@ -99,13 +103,14 @@ body{
 .txt-fondo{
     display: flex;
     font-family: 'JetBrains Mono', monospace;
+    font-weight: 550;
     position: absolute;
     top: 93%;
     left: 3%;
     font-size: 25px;
-    color:white;
-
+    color: #fff;
 }
+
 
 .imagen-principal img{
     position: absolute;
@@ -146,6 +151,8 @@ body{
     border-radius: 100%;
     padding-right: 10px;
 }
+
+
 .texto p{
     font-size: 16px;
 }
@@ -378,6 +385,20 @@ main {
 }
 
 @media (max-width: 450px) {
+    .img-fondo{
+        display: none;
+    }
+    .img-movil{
+        display: flex;
+        width: 100%;
+        position: auto;
+        height: 700px;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+    }
+    .txt-fondo{
+        font-size: 20px;
+    }
 
     .form{
         padding: 3.5em 1em;
@@ -387,7 +408,10 @@ main {
 
 @media (max-width: 900px){
     .tarjeta{
+        margin-left: 10px;
+        margin-right: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
+        display: center;
     }
 }
