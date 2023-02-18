@@ -384,22 +384,23 @@ main {
     .img-fondo{
         display: none;
     }
-    .img-movil{
-        display: -webkit-flex;
-        position: absolute;
-        width: 150%;
-        position: auto;
-        height: 700px;
-        border-bottom-left-radius:10px;
-        border-bottom-right-radius:10px;
+    .fondo{
+        display: none;
     }
     .txt-fondo{
+        display: none;
         font-size: 20px;
+    }
+
+    .texto{
+        padding-top: 0px;
     }
 
     .form{
         padding: 3.5em 1em;
     }
+
+
 }
 
 
