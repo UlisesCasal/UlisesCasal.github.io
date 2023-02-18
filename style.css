@@ -385,8 +385,9 @@ main {
         display: none;
     }
     .img-movil{
-        display: flex;
-        width: 100%;
+        display: -webkit-flex;
+        position: absolute;
+        width: 150%;
         position: auto;
         height: 700px;
         border-bottom-left-radius:10px;
